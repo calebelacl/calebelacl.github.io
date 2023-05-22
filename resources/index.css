@@ -35,6 +35,7 @@ header {
     display: inline-block;
     padding-left: 5px;
     padding-right: 5px;
+    z-index: 10;
 }
 
 header h1 {
@@ -44,8 +45,14 @@ header h1 {
     font-family: Mont-thin;
 }
 
-body {
-    display: block;
+.spacer {
     position: relative;
-    top: 500px;
+    top: 0px;
+    left: -10px;
+    height: 300px;
+    width: 3000px;
+    opacity: .75;
+    background-color: black;
+    background-image: url("./images/banner-edited.jpg");
 }
+
