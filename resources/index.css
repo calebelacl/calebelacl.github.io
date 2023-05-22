@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Quicksand;
+    src: url("./fonts/quicksand/static/Quicksand-Regular.ttf");
+}
+
+* {
+    font-family: Quicksand;
+}
