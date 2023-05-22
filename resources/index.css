@@ -3,6 +3,40 @@
     src: url("./fonts/quicksand/static/Quicksand-Regular.ttf");
 }
 
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url("./fonts/quicksand/static/Quicksand-Bold.ttf");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("./fonts/montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Mont-thin;
+    src: url("./fonts/montserrat/static/Montserrat-Thin.ttf");
+}
+
 * {
     font-family: Quicksand;
+}
+
+strong {
+    font-family: Quicksand-Bold;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: inline-block;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    font-family: Mont-thin;
 }
