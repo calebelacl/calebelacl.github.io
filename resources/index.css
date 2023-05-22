@@ -40,3 +40,9 @@ header h1 {
     font-size: 75px;
     font-family: Mont-thin;
 }
+
+body {
+    display: block;
+    position: relative;
+    top: 500px;
+}
