@@ -50,7 +50,7 @@ header h1 {
     top: 0px;
     left: -10px;
     height: 300px;
-    width: 3000px;
+    width: 120%;
     opacity: .75;
     background-color: black;
     background-image: url("./images/banner-edited.jpg");
