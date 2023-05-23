@@ -70,4 +70,11 @@ header img {
     border-color: black;
     border-radius: 4px;
     border-style: groove;
+    overflow: scroll;
+}
+
+.article img {
+    width: 300px;
+    display: inline-block;
+    overflow: hidden;
 }
