@@ -18,8 +18,37 @@
     src: url("./fonts/montserrat/static/Montserrat-Thin.ttf");
 }
 
+body {
+    margin: 0;
+}
+
 * {
     font-family: Quicksand;
 
 }
 
+.colors {
+    color: #FFF;
+    width: 100%;
+    padding: 10px;
+}
+
+.colors-1 {
+    background-color: #10959E;
+}
+
+.colors-2 {
+    background-color: #EB1798;
+}
+
+.colors-3 {
+    background-color: #00DBEB;
+}
+
+.colors-4 {
+    background-color: #EBCE17;
+}
+
+.colors-5 {
+    background-color: #9E8A08;
+}
